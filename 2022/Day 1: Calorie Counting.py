@@ -8,7 +8,7 @@ totalCalories = 0
 
 for line in file:
     if line != "\n":
-		calories = int(line)
+        calories = int(line)
 		totalCalories += calories
 	else:
 		arrayTotalElfCalories.append(totalCalories)
