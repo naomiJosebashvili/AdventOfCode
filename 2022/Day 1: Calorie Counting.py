@@ -41,6 +41,6 @@ for line in file:
 		totalCalories = 0
 		
 file.close()
-	
+
 arrayTotalElfCalories.sort()
 print(arrayTotalElfCalories[-1] + arrayTotalElfCalories[-2] + arrayTotalElfCalories[-3])
