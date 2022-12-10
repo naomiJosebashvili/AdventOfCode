@@ -9,17 +9,17 @@ totalCalories = 0
 for line in file:
     if line != "\n":
         calories = int(line)
-		totalCalories += calories
-	else:
-		arrayTotalElfCalories.append(totalCalories)
-		totalCalories = 0
+        totalCalories += calories
+    else:
+        arrayTotalElfCalories.append(totalCalories)
+        totalCalories = 0
 		
 file.close()
 	
 highestCalories = 0
 for elf in arrayTotalElfCalories:
-	if elf > highestCalories:
-		highestCalories = elf
+    if elf > highestCalories:
+        highestCalories = elf
 		
 print(highestCalories)
 
@@ -33,12 +33,12 @@ arrayTotalElfCalories = []
 totalCalories = 0
 
 for line in file:
-	if line != "\n":
-		calories = int(line)
-		totalCalories += calories
-	else:
-		arrayTotalElfCalories.append(totalCalories)
-		totalCalories = 0
+    if line != "\n":
+        calories = int(line)
+        totalCalories += calories
+    else:
+        arrayTotalElfCalories.append(totalCalories)
+        totalCalories = 0
 		
 file.close()
 
