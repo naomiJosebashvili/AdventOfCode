@@ -1,7 +1,7 @@
 # Part 1:
 # Finding the common item between both compartments of each backpack, and outputting the sum of their priorities
 
-file = open("backpacks.txt", "r")
+file = open("day3InputFile.txt", "r")
 totalPriorities = 0
 itemPriority = [0,"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 
@@ -27,7 +27,7 @@ print(totalPriorities)
 # Part 2:
 # Finding the common item between every 3 backpacks, and outputting the sum of their priorities
 
-file = open("backpacks.txt", "r")
+file = open("day3InputFile.txt", "r")
 totalPriorities = 0
 itemPriority = [0,"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 b1 = b2 = b3 = ""
