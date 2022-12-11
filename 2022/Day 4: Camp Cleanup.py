@@ -18,6 +18,7 @@ for pair in file:
 file.close()
 print(numberOfFullyOverlappedPairs)
 
+
 # Part 2:
 # Finds how many pairs of Elves are assigned to clean sections that overlap
 
